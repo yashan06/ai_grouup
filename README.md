@@ -3,13 +3,13 @@ This project demonstrates a real-time object detection web application built usi
 
 --- 
 
-#TEAM MEMBERS
+# TEAM MEMBERS
 - YASHAN OSWAL (KU2407U448/202407020426)
 - OMI RATHOD (KU2407U429/202407020408)
 - KANISHK LADDHA (KU2407U413/202407020392)
  ---
  
-##Features
+## Features
 - Real-Time Object Detection: The application detects objects in video frames in real-time, annotating the detected items with labels and bounding boxes.
 - Web Interface: The application provides a simple webpage interface that displays the real-time video feed from the webcam, including object detection annotations.
 - Multiple Object Detection: You can customize the model to detect various objects based on the pre-trained YOLO model, such as groceries, animals, people, etc.
@@ -26,7 +26,7 @@ This project demonstrates a real-time object detection web application built usi
 
 ---
 
-##How It Works
+## How It Works
 - Flask Web Application:
 The main Flask application serves the HTML page (index.html), which contains an image element that continuously requests video frames from the backend.
 The video frames are served by Flask through the /video_feed route, which streams JPEG images to the client.
